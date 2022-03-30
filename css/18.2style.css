@@ -1,0 +1,242 @@
+:root{
+    --cards-color:rgb(164, 197, 45);
+    --navbar-background-color:rgb(59, 56, 56);
+    --main-text-color:rgb(168, 51, 110);
+    --background-color:beige;
+
+}
+
+
+html, body, #maindiv_portfolio {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--navbar-background-color);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar li a {
+    display: block;
+    color: var(--cards-color);
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover {
+    background-color: #446190;
+    color: #f4f4f4;
+}
+
+
+#row-1 {
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#row-2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#row-3 {
+    background: #000;
+    color: #fff;
+    font-family: monospace;
+    box-shadow: 5px 7px 3px #e6e4e4;
+    box-shadow: inset;
+}
+
+#body_card {
+    align-items: center;
+}
+
+#maindiv {
+    box-shadow: 0px 20px 20px #a7a5a5;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    border: 1px solid #000;
+    background: blanchedalmond;
+    margin: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#fig {
+    background: url("../img/golanh.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 55%;
+    margin: 0;
+    padding: 0
+}
+
+#figdescription {
+    padding: 20px;
+}
+
+.cardlinks {
+    margin-right: 20px;
+}
+
+#my_social_media a {
+    font-size: 30px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#maindiv_portfolio {
+    background-color: var(--background-color);
+    padding: 40px;
+    text-align: center;
+    color: var(--main-text-color);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+}
+
+html,
+#body_portfolio {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#cards {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio_card {
+    box-shadow: 0px 20px 20px #a7a5a5;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    border: 5px solid #000;
+    background-color: var(--cards-color);
+    margin: 20 px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#portfolio_fig img {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0
+}
+
+#portfolio_figdescription {
+    padding: 20px;
+}
+
+.portfolio_cardlinks {
+    margin-right: 20px;
+}
+
+
+#body-section {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+#rectangle {
+    border: 1px solid #333;
+    padding: 0% 22%;
+    font-size: 6px;
+}
+
+.clr {
+    clear: both;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 2px;
+}
+
+
+
+#box-1 {
+    background-color: orange;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#box-2 {
+    float: left;
+    width: 120px;
+    height: 200px;
+    background-color: green;
+    text-align: left;
+    margin-right: 0px;
+}
+
+#box-3 {
+    float: right;
+    width: calc(100% - 126px);
+    height: 200px;
+    background-color: rgb(95, 22, 95);
+    text-align: right;
+}
+
+#box-4 {
+    background-color: rgb(0, 102, 255);
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer .btn {
+    background: var(--main-text-color);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .btn:hover {
+    color: #f4f4f4;
+    background: rgb(104, 31, 67);
+}
