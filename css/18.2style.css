@@ -3,6 +3,7 @@
     --navbar-background-color:rgb(59, 56, 56);
     --main-text-color:rgb(168, 51, 110);
     --background-color:beige;
+    --general-text-size:20px;
 
 }
 
@@ -122,7 +123,7 @@ nav {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sniglet', cursive;
-    font-size: 20px;
+    font-size: var(--general-text-size);
 }
 
 html,
